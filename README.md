@@ -1,7 +1,7 @@
 # RISC-V-Tapeout-chip-program-week-0-
-Welcome to my journey of RISC-V  this program deals with design , verification and tapeout of a custom processsor based on open source RISC-V instruction set . week-0 contains the design flow of an SoC. the design flow starts with the C level program which is further converted into RTL Level then sub divided into processor and peripherals/IPs.this is the basic SoC design flow which is used to obtain the the GDSII 
-# intallation of tools 
-   1) yosys
+Welcome to my journey of RISC-V . This program deals with design , verification and tapeout of a custom processsor based on open source RISC-V instruction set . Week-0 contains the design flow of an SoC. the design flow starts with the C level program which is further converted into RTL Level then sub divided into processor and peripherals/IPs.this is the basic SoC design flow which is used to obtain the the GDSII .
+# installation of tools 
+   1) Yosys
    2) Iverilog
    3) GTKWAVE
 # Resizing ubuntu 
@@ -19,6 +19,9 @@ $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
 
 $ sudo apt install make
+
+![ss](https://github.com/user-attachments/assets/bcc00745-a37d-47e1-a281-69047e9ffe2c)
+
 
 $ sudo apt-get install build-essential clang bison flex \libreadline-dev gawk tcl-dev libffi-dev git \graphviz xdot pkg-config python3 libboost-system-dev \libboost-python-dev libboost-filesystem-dev zlib1g-dev
 
